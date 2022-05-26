@@ -37,7 +37,7 @@ public String toshowPage(@RequestParam("file") MultipartFile file, Model m, Http
         File_ f = new File_();
         f.setImg(fileName);
         fdao.save(f);
-
+//文件夹创建并且写入文件
         destFile.getParentFile().mkdirs();
         file.transferTo(destFile);
     } catch (FileNotFoundException e) {
