@@ -1,0 +1,13 @@
+return附带的参数：
+
+charset=utf-8&
+out_trade_no=32432da&    //订单号
+method=alipay.trade.page.pay.return&
+total_amount=100.00&   //价格
+sign=fKamvg9rh1dqrlaVaouqFfGhUueDtT9XtkG7V%2FsTQfnqRNbsCs45zCuGPLqDrpqe5GR8Rs5iKQgXhcUqx5r5uvHMfXrMC3dFEofTsi%2FBjjGShvd%2FDGVSFX%2FhepnUZPpPQy4Bem7YDP1WCJm3fxlFC00YChKPhJSF%2FupXyziXVveX8paeQbihp7B6pAUHqWpnrHQyAo%2FkUYYA1jdWL%2FAq8Xl5funfvDq38gG2q3kNzCjBO2W7i%2FpYtOJB4e2hzEbRrd1BVJypphNamTf0eVoddX2mS7YPdx9Ez6HvsGbCs3QGnqbwaGzItk1iumf0NI9d2RgdL87eMWygyv5TYVgH7Q%3D%3D&
+trade_no=2022052322001442870501866472&     //商品id
+auth_app_id=2021000120602046&version=1.0&  //appid
+app_id=2021000120602046&                  
+sign_type=RSA2&       
+seller_id=2088621959192042&                             //卖家id
+timestamp=2022-05-23+00%3A46%3A39
