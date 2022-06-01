@@ -9,8 +9,18 @@
 <html>
 <head>
     <title>Title</title>
+    <style>
+        a{
+            text-decoration: none;
+
+        }
+        a:hover{
+            color: aqua;
+        }
+    </style>
 </head>
 <body>
-Hi JSP. 现在时间是  ${now}
+<span style="display:block;text-align:center;font-family: 'Segoe UI Historic'">Hi JSP. 现在时间是  ${now}</span>
+<span style="display:block;text-align:center;font-family: 'Segoe UI Historic';margin-top: 200px;font-size: large"><a href="/listAllUsers">展示所有的用户</a></span>
 </body>
 </html>

@@ -1,9 +1,7 @@
 package com.lukai.firstboot.web;
 
-import com.lukai.firstboot.mapper.User_info_mapper;
-import com.lukai.firstboot.pojo.Category;
+import com.lukai.firstboot.dao.User_infoDao;
 import com.lukai.firstboot.pojo.User_info;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,12 +10,10 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
-import static java.lang.System.out;
-
 @Controller
 public class UserController {
     @Resource
-    User_info_mapper user_info_mapper;
+    User_infoDao user_info_mapper;
 
     @RequestMapping("/listAllUsers")
     public String listAll(Model m) throws Exception {

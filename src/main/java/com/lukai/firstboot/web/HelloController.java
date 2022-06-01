@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HelloController {
 
-    @RequestMapping("/hello")
-    public String hello(Model m) {
-        m.addAttribute("now", DateFormat.getDateTimeInstance().format(new Date()));
-        return "hello";
-    }
+//    @RequestMapping("/")
+//    public String hello(Model m) {
+//        m.addAttribute("now", DateFormat.getDateTimeInstance().format(new Date()));
+//        return "hello";
+//    }
 }

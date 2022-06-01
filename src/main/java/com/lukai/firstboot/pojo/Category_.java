@@ -4,7 +4,7 @@ import javax.persistence.*;
 
 @Entity
 @Table(name="category_")
-public class Category {
+public class Category_ {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name="id")
@@ -28,5 +28,9 @@ public class Category {
 
     public void setName(String name) {
         this.name = name;
+    }
+    @Override
+    public String toString(){
+        return "Category_[id="+id+",name="+name+"]";
     }
 }
